@@ -32,6 +32,7 @@ body {
     url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
+  position: relative;
 
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   transition: 0.5s;
@@ -44,4 +45,5 @@ body {
 }
 
 .logo {
+  height: 38px;
 }
